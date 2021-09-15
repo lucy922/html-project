@@ -47,14 +47,6 @@ p, .music-icon, .payment a, .annual, .amount, .button, .order {
   font-size: 15px;
 }
 
-.music-icon{
-  padding: 6px;
-  color: rgba(128, 137, 144, 0.897);
-  background-color: rgba(168, 169, 245, 0.431);
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-}
 .plan-details{
   margin: 0 auto;
   width: 270px;
@@ -85,8 +77,12 @@ p, .music-icon, .payment a, .annual, .amount, .button, .order {
   color: rgba(0, 0, 0, 0.527);
 }
 
-.button-div, .text, h1, .order{
+ .text, h1, .order{
   margin-top: 20px;
+}
+
+.button-div{
+  margin-top: 25px;
 }
 
 .button{
@@ -96,7 +92,7 @@ p, .music-icon, .payment a, .annual, .amount, .button, .order {
   border-radius: 10px;
   color: #fff;
   z-index: 1;
-  box-shadow: 10px 10px 8px rgba(217, 221, 251, 0.952);
+  box-shadow: 10px 10px 8px rgba(157, 169, 255, 0.952);
   background-color: rgb(36, 33, 190);
 }
 
